@@ -1,0 +1,148 @@
+(footprint "SW_Cherry_MX_2.00u_PCB_stabs"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Cherry MX keyswitch, 2.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
+	(tags "Cherry MX keyswitch 2.00u PCB")
+	(property "Reference" "REF**"
+		(at -2.54 -2.794 0)
+		(layer "F.SilkS")
+		(uuid "3494e54c-58ac-46ac-a463-a4b66c7e1a34")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SW_Cherry_MX_2.00u_PCB_stabs"
+		(at -2.54 12.954 0)
+		(layer "F.Fab")
+		(uuid "cbded501-01f1-426c-8888-2fbb2bead1e7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b646b337-bcd4-472b-969e-375d338f1c50")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2d03f49d-6f72-433b-816f-93c4616f1e73")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -21.59 -4.445)
+		(end 16.51 -4.445)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "782bfb8f-4a4e-4f55-b8a8-66498c50139d")
+	)
+	(fp_line
+		(start -21.59 14.605)
+		(end -21.59 -4.445)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "4ac1488f-f266-4d5e-8266-f8f8ef95a4ab")
+	)
+	(fp_line
+		(start 16.51 -4.445)
+		(end 16.51 14.605)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "1fabf3ab-b5e0-4c35-a878-733a08060a9c")
+	)
+	(fp_line
+		(start 16.51 14.605)
+		(end -21.59 14.605)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "28323a14-43a1-495e-b7ba-8376415f6456")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -2.54 -2.794 0)
+		(layer "F.Fab")
+		(uuid "e9b8ecce-3e2b-4582-ad83-7e7ab7a10a20")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at -14.44 -1.92)
+		(size 3.05 3.05)
+		(drill 3.05)
+		(layers "*.Cu" "*.Mask")
+		(uuid "e9c633fc-4d84-43de-804e-939ee7ec3a83")
+	)
+	(pad "" np_thru_hole circle
+		(at -14.44 13.32)
+		(size 4 4)
+		(drill 4)
+		(layers "*.Cu" "*.Mask")
+		(uuid "74349d29-742a-47ee-89d6-aff6a2634283")
+	)
+	(pad "" np_thru_hole circle
+		(at 9.36 -1.92)
+		(size 3.05 3.05)
+		(drill 3.05)
+		(layers "*.Cu" "*.Mask")
+		(uuid "15608827-522f-4889-b359-bb355250c075")
+	)
+	(pad "" np_thru_hole circle
+		(at 9.36 13.32)
+		(size 4 4)
+		(drill 4)
+		(layers "*.Cu" "*.Mask")
+		(uuid "4af40fc5-869a-4ccc-b270-d4e4d0e25174")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Button_Switch_Keyboard.3dshapes/SW_Cherry_MX_2.00u_PCB.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
